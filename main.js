@@ -7,6 +7,14 @@ Hozd létre a szükséges változókat, és definiáld is őket:
 - mark: ez a jel, amellyel játszanak a játékosok (0 vagy X, alapértelmezetten 'X').
 */
 
+const stepCount = 0
+
+const cols = 3
+
+const rows = 3
+
+const mark = 'x'
+
 /*const matrix = [
     [1, 2, 3],
     [4, 5, 6],
@@ -18,14 +26,6 @@ const matrix = [
     ['', '', ''],
     ['', '', '']
 ]
-
-const stepCount = 0
-
-const cols = 3
-
-const rows = 3
-
-const mark = 'x'
 
 /**
 Fejtsd ki az initState elnevezésű függvényt, 
