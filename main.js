@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const player1 = 'X';
 const player2 = 'O';
 const boxElements = document.querySelectorAll(".box")
@@ -29,41 +28,6 @@ boxElements.forEach(box => {
 //    }
 
  // kirakja a markot
-=======
-/* 
-Hozd létre a szükséges változókat, és definiáld is őket:
-- matrix: ez egy tömb (alapértelmezetten üres), amely az egész játékteret tartalmazza,
-- stepCount: ez egy szám (alapértelmezetten 0), a megtett lépések száma,
-- cols: ez az oszlopok száma (alapértelmezetten 3),
-- rows: ez a sorok száma (alapértelmezetten 3),
-- mark: ez a jel, amellyel játszanak a játékosok (0 vagy X, alapértelmezetten 'X').
-*/
-
-const stepCount = 0
-
-const cols = 3
-
-const rows = 3
-
-const mark = 'x'
-
-/*const matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]*/
-
-const matrix = [
-    ['', '', ''],
-    ['', '', ''],
-    ['', '', '']
-]
-
-/**
-Fejtsd ki az initState elnevezésű függvényt, 
-amely feltölti üres mezőkkel a játékteret, 
-tehát az összes sort és oszlopot a mátrixban.
->>>>>>> 2ea626741f9001f546cc710ddcb65aa7aee6a395
 
  function handleClick (e) {
     const box = e.target;
